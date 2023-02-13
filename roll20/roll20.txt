@@ -1,0 +1,39 @@
+[[1d20]] rola um dado inline
+
+/em - muda a aparencia do texto no chat
+/ooc - out of character (fora do personagem)
+/as - escreve como alguem
+/emas - muda a aparencia e fala como alguem
+/desc - para descrever situações
+
+*exemplo* - italico
+**exemplo** - negrito
+***exemplo*** - italico negrito
+``exemplo`` - coloca texto na caixa
+
+?{pergunta?|} - faz uma pergunta ao usar o macro
+?{pergunta?| opção 1, conteudo da opção| opção 2, conteudo da opção}
+
+< - sucesso se menor que numero pedido
+> - sucesso se maior que numero pedido
+= - sucesso se igual que numero pedido
+
+dado! - explode o dado
+dadom - agrupa dados iguais
+dadomt - mostra o numero de pares
+dadok - deixa só os maiores
+dadod - deixa cair o pior
+dadodh - deixa cair o maior
+dadodl - deixa cair o menor
+dador - rerola o menor
+dados - mostra do menor pro maior
+dadosd - mostra do maior pro menor
+
+#macro - chama outra macro
+@{nome|atributo} - chama atributo de personagem
+@{target|atributo} - chama atributo de personagem apontado
+@{selected|atributo} - chama atributo de personagem selecionado
+%{selected/target|habilidade} - chama a habilidade de algum personagem
+
+[nome botao](!&#13;#macro) - cria um botão para macro
+[[1t[tabela]]] - rola tabela inline

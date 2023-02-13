@@ -1,0 +1,3 @@
+floor(conta) - aredonda pra baixo os resultado
+cell(conta) - aredonda pra cima os resultado
+round(conta) - aredonda pra cima se maior que 5 e para baixo se menor

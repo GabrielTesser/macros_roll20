@@ -1,0 +1,5 @@
+&{template:default}
+
+{{}} - meta dado do template (seção)
+{{name=titulo da macro}} - define o titulo da macro
+{{exemplo = dano}} - tudo antes do = fica em negrito
